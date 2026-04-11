@@ -1,1 +1,4 @@
-# ArcanoidFnaProject
+## ArcanoidFnaProject
+## Гребенюк Игорь Олегович
+## ИП-24-4
+## FNA проект Арканоид
