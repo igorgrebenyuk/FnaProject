@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{46A0E7E4-5BAA-4D37-AE6B-FC9B4F5567F9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ArcanoidFnaProject</RootNamespace>
-    <AssemblyName>ArcanoidFnaProject</AssemblyName>
+    <RootNamespace>FnaProject</RootNamespace>
+    <AssemblyName>FnaProject</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,25 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character.cs" />
-    <Compile Include="Game1.cs" />
-    <Compile Include="GameObject.cs" />
-    <Compile Include="Map.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Utilities\Camera.cs" />
-    <Compile Include="Utilities\Global.cs" />
-    <Compile Include="Utilities\Input.cs" />
-    <Compile Include="Utilities\Resolution.cs" />
-    <Compile Include="Utilities\TextureLoader.cs" />
-    <Compile Include="Utilities\XmlHelper.cs" />
+    <Compile Include="UI\SnowFallGame.cs" />
+    <Compile Include="Constants\GlobalSettings.cs" />
+    <Compile Include="UI\Program.cs" />
+    <Compile Include="BL\SnowflakeModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Content\pixel.png">
+    <Content Include="Content\BLACK_Png_snowflake.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\sprite.png">
+    <Content Include="Content\Snow_Village.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
